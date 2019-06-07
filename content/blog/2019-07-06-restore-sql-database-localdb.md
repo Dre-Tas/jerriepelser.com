@@ -14,7 +14,7 @@ This blog post will take you through the process of creating a backup of a SQL A
 
 Before you get started, you will need to ensure that you have the SqlPackage tool installed. In my case, this was installed as part of Visual Studio 2019, and I could find the `sqlpackage.exe` tool under the `C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\150` folder. This may be different for you, but, given that you have chosen to install the SQL Server tools with Visual Studio, you'll probably find in a similar folder.
 
-If you cannot find it, you can [follow this blog post](Download and install sqlpackage) to download and install it.
+If you cannot find it, you can [follow this blog post](https://docs.microsoft.com/en-us/sql/tools/sqlpackage-download?view=sql-server-2017) to download and install it.
 
 ## Creating the backup on Azure
 
