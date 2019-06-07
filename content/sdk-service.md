@@ -47,7 +47,7 @@ Here are some examples of documentation and tutorial I have created:
 * [Auth0 ASP.NET Core Quickstart](https://auth0.com/docs/quickstart/webapp/aspnet-core)
 * [Auth0 ASP.NET Core Web API Quickstart](https://auth0.com/docs/quickstart/backend/aspnet-core-webapi)
 * [Auth0 Xamarin Quickstart](https://auth0.com/docs/quickstart/native/xamarin)
-* [Build an Airport Explorer with ASP.NET Core](http://localhost:1313/books/airport-explorer/) (This is a free tutorial I created for ASP.NET Core developers)
+* [Build an Airport Explorer with ASP.NET Core](/books/airport-explorer/) (This is a free tutorial I created for ASP.NET Core developers)
 * [Documentation for the CommandLineUtils library](https://natemcmaster.github.io/CommandLineUtils/) (I put together the initial version of these docs, though many others have contributed since)
 
 ## My experience
