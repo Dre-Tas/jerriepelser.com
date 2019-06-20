@@ -89,7 +89,7 @@ export default class AuthService {
         this.userManager = new UserManager(settings);
     }
 
-    public getUser(): Promise<User> {
+    public getUser(): Promise<User | null> {
         return this.userManager.getUser();
     }
 
@@ -98,7 +98,7 @@ export default class AuthService {
     }
 
     public logout(): Promise<void> {
-        return this.userManager.signinRedirect();
+        return this.userManager.signoutRedirect();
     }
 }
 ```
@@ -207,8 +207,10 @@ export default class Home extends Vue {
 
   public mounted() {
     auth.getUser().then((user) => {
-      this.currentUser = user.profile.name;
-      this.accessTokenExpired = user.expired;
+      if (user !== null) {
+        this.currentUser = user.profile.name;
+        this.accessTokenExpired = user.expired;
+      }
 
       this.isLoggedIn = (user !== null && !user.expired);
     });
