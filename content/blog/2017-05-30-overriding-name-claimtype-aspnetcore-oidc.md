@@ -3,7 +3,7 @@ date: 2017-05-30T00:00:00Z
 description: |
   Overriding the NameClaimType when in the ASP.NET Core OpenID Connect middleware allow you to specify a different claim from the ID Token to use as the name of the subject.
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - oidc

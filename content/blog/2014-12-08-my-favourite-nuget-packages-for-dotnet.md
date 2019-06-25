@@ -4,7 +4,7 @@ description: |
   A list of all my favourite Nuget packages which I seem to use over and over again
 tags:
 - nuget
-- .net
+- dotnet
 title: My favourite Nuget packages for .NET development
 url: /blog/my-favourite-nuget-packages-for-dotnet/
 ---

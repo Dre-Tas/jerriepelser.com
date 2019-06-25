@@ -3,7 +3,7 @@ title: "Deserializing different JSON structures to the same C# class"
 description:
   The JsonConverter class allows you to deserialize differently structured JSON objects to the same C# class.
 tags:
-- .net
+- dotnet
 - json.net
 ---
 

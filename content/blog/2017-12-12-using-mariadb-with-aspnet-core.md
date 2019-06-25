@@ -4,7 +4,7 @@ description: |
   MariaDB is an open source database compatible with MySQL. Here's looking at how you can use this in your ASP.NET Core application.
 date: 2017-12-12
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - ef core

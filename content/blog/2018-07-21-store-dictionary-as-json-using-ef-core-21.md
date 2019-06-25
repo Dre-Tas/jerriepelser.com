@@ -4,7 +4,7 @@ description:
   Demonstrates how you can store the contents of a Dictionary property as a JSON document in your database when using EF Core 2.1
 tags:
 - ef core
-- .net core
+- dotnet core
 ---
 
 I have an entity in my Entity Framework model which has a property of type `Dictionary<string, string>` which I would like to store as a JSON string in a `nvarchar` field in my database.

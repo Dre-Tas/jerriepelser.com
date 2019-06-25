@@ -10,7 +10,7 @@ title: Remote Client Side Validation with FluentValidation
 url: /blog/remote-client-side-validation-with-fluentvalidation/
 ---
 
-My go-to library for model validation in .NET is [Fluent Validation](http://fluentvalidation.codeplex.com), and I have written [a number of posts ](/tags/fluent%20validation/)about it before. On the current project I am working we needed to do database validation which I described how to do in [this blog post](http://www.jerriepelser.com/blog/using-fluent-validation-with-asp-net-mvc-part-4-database-validation/).  This time however I needed to go one step further and not only do the database validation on the server side, but also on the client side.
+My go-to library for model validation in .NET is [Fluent Validation](http://fluentvalidation.codeplex.com), and I have written [a number of posts ](/tags/fluent-validation/)about it before. On the current project I am working we needed to do database validation which I described how to do in [this blog post](http://www.jerriepelser.com/blog/using-fluent-validation-with-asp-net-mvc-part-4-database-validation/).  This time however I needed to go one step further and not only do the database validation on the server side, but also on the client side.
 
 FluentValidation integrates with the ASP.NET model validation pipeline, and even go so far as to render client side validation for certain validation rules. More information on the ASP.NET Integration can be found on [this page](http://fluentvalidation.codeplex.com/wikipage?title=mvc) on the Wiki.  
 

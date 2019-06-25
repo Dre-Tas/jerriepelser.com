@@ -3,8 +3,8 @@ title: "Updating your .NET project dependencies with Dependabot"
 description:
   Dependabot is a service that will automatically create pull requests to update outdated dependencies in your .NET projects.
 tags:
-- .net
-- .net core
+- dotnet
+- dotnet core
 - dependabot
 - nuget
 ---

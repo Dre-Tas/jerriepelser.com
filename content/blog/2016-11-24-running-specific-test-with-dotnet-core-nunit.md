@@ -3,7 +3,7 @@ date: 2016-11-24T00:00:00Z
 description: |
   Demonstrates how to run a single unit test, or sets of unit tests, when using the NUnit 3 test runner for .NET Core.
 tags:
-- .net core
+- dotnet core
 - nunit
 - unit testing
 title: Running a specific test with .NET Core and NUnit

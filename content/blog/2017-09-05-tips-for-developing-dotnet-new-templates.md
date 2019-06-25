@@ -3,7 +3,7 @@ date: 2017-09-05T00:00:00Z
 description: |
   The .NET Core CLI allow you to supply custom templates for creating new projects. Here's looking at some resources for developing your own templates
 tags:
-- .net core
+- dotnet core
 - csharp
 title: Tips for developing templates for dotnet new
 url: /blog/tips-for-developing-dotnet-new-templates/

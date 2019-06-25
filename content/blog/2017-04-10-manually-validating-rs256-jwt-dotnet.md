@@ -3,8 +3,8 @@ date: 2017-04-10T00:00:00Z
 description: |
   Shows how you can manually validate a JSON Web Token using .NET
 tags:
-- .net core
-- .net
+- dotnet core
+- dotnet
 - jwt
 title: Manually validating a JWT using .NET
 url: /blog/manually-validating-rs256-jwt-dotnet/

@@ -20,7 +20,7 @@ These contracts were usually long term contracts, ranging from around 6 months u
 
 About 3 years ago I left South Africa and became what is commonly known as a "[digital nomad](https://en.wikipedia.org/wiki/Digital_nomad)". I personally do not like the term too much, but it does describe what I do quite effectively. At first I tried to get some of my own projects going, but none of that panned out. So lately I have been levitating more towards doing freelance work. 
 
-I am quite blessed in that the clients that I do work for are nice people, and the work they give me are also interesting. I have also added a [Hire Me](http://www.jerriepelser.com/hire-me) page to my blog which have been so successful that I am turning down work on a weekly basis.
+I am quite blessed in that the clients that I do work for are nice people, and the work they give me are also interesting. I have also added a [Hire Me](http://www.jerriepelser.com/hire) page to my blog which have been so successful that I am turning down work on a weekly basis.
 
 I do not take on more than 2 concurrent projects, as this is the most I can handle at a given time and still give them enough time along with the other commitments I have such as the blogging, newsletter etc.
 
@@ -86,7 +86,7 @@ The last one I am going to cover for networking is to network online. On Twitter
 
 Blogging sort of falls under the networking category, but I want to cover it separately. I have tried to get a blog going many times over the years but invariably it petered out after a couple of months. My current effort has been successful and this blog has been going now for almost 3 years. It has grown slowly and steadily and it is now at the point where I get many tens of thousands of readers each month.
 
-So in an effort to get work I have added a [Hire Me page](http://www.jerriepelser.com/hire-me), and I have also added a notice at he bottom of each blog post stating that I am available for freelance work. This has been tremendously successful and like I said in the introduction, I get people on a weekly basis approaching me with offers of freelance work. Unfortunatly I have to turn them down most of the time as I am fully booked at the moment.
+So in an effort to get work I have added a [Hire Me page](http://www.jerriepelser.com/hire), and I have also added a notice at he bottom of each blog post stating that I am available for freelance work. This has been tremendously successful and like I said in the introduction, I get people on a weekly basis approaching me with offers of freelance work. Unfortunatly I have to turn them down most of the time as I am fully booked at the moment.
 
 So start blogging. Today. And make it a habit. Blogging is not a short term thing. You have to play the long game, as the benefits will only start to show themselves over the long term. Just start, and then stick with it.
 

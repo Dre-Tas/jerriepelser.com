@@ -3,7 +3,7 @@ date: 2017-04-11T00:00:00Z
 description: |
   A look at creating a simple serverless application using .NET Core, AWS Lambda and AWS API Gateway
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - aws

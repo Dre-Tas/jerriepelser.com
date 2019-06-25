@@ -5,7 +5,7 @@ description: |
 tags:
 - asp.net core
 - asp.net
-- fluentvalidation
+- fluent validation
 title: Handling validation responses for ASP.NET Core Web API
 url: /blog/validation-response-aspnet-core-webapi/
 ---

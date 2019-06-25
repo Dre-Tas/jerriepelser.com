@@ -3,7 +3,7 @@ date: 2016-11-24T00:00:00Z
 description: |
   Demonstrates how you can use the .NET Core Configuration system in .NET Core unit test projects
 tags:
-- .net core
+- dotnet core
 - unit testing
 title: Using Configuration files in .NET Core Unit Test Projects
 url: /blog/using-configuration-files-in-dotnet-core-unit-tests/

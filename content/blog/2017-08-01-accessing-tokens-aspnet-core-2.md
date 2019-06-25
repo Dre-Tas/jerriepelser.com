@@ -3,7 +3,7 @@ date: 2017-08-01T00:00:00Z
 description: |
   The ASP.NET Core OIDC middleware allow you to save the ID Token and Access Token, so you can access these in your application.
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - auth0

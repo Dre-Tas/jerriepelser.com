@@ -136,7 +136,7 @@ Notice the call to `@Model.MapboxAccessToken`, which read the value of the Mapbo
 
 * [Working with multiple environments](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/environments)
 * [Configure an ASP.NET Core Application](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration)
-* [Exploring Program.cs, Startup.cs and CreateDefaultBuilder in ASP.NET Core 2 preview 1](Exploring Program.cs, Startup.cs and CreateDefaultBuilder in ASP.NET Core 2 preview 1)
+* [Exploring Program.cs, Startup.cs and CreateDefaultBuilder in ASP.NET Core 2 preview 1](https://andrewlock.net/exploring-program-and-startup-in-asp-net-core-2-preview1-2/)
 * [Using Indexers in C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/indexers/using-indexers)
 
 {{% /learnmore %}}

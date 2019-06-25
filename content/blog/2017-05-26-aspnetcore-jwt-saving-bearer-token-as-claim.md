@@ -3,7 +3,7 @@ date: 2017-05-26T00:00:00Z
 description: |
   When using the ASP.NET Core JWT authentication handler, there are instances in which you may want to access the actual bearer token which was passed to the request.
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - auth0
@@ -15,7 +15,7 @@ url: /blog/aspnetcore-jwt-saving-bearer-token-as-claim/
 
 When using JSON Web Tokens (JWTs) as Bearer tokens in your ASP.NET Core Web API, it may sometimes be required to access the actual token which was passed to the API somewhere else in your API. 
 
-For [Remote Map](http://www.jerriepelser.com/blog/introducing-remote-map/) for example I have the requirement to access the user's full profile under certain conditions. I want to store some of the user's personal information in the local database, and in order to obtain their information I have to call the [/userinfo](https://auth0.com/docs/api/authentication#get-user-info) endpoint of the Auth0 Authentication API.
+For example, I have a requirement to access the user's full profile under certain conditions. I want to store some of the user's personal information in the local database, and in order to obtain their information I have to call the [/userinfo](https://auth0.com/docs/api/authentication#get-user-info) endpoint of the Auth0 Authentication API.
 
 In order to call the `/userinfo` endpoint, I need to pass the `access_token` along - the same `access_token` which was used as a Bearer Token to call the API endpoint.
 

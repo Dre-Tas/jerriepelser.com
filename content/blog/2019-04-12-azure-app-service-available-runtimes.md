@@ -5,7 +5,7 @@ description:
 tags:
 - azure
 - app service
-- .net core
+- dotnet core
 - nodejs
 ---
 

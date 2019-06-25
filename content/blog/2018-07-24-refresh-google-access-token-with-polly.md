@@ -4,7 +4,7 @@ description:
   Google access tokens are short-lived, but you can configure a Polly policy to refresh the access token when expired.
 tags:
 - asp.net core
-- .net core
+- dotnet core
 - polly
 - httpclient
 ---

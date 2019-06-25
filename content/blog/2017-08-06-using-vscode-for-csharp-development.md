@@ -3,7 +3,7 @@ date: 2017-08-06T00:00:00Z
 description: |
   VS Code is a great tool for developing ASP.NET Core applications. Here's looking at some resources which you will find useful.
 tags:
-- .net core
+- dotnet core
 - csharp
 - vs code
 title: Using Visual Studio Code for C# (.NET Core) development

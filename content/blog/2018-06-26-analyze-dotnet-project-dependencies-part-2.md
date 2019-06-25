@@ -3,7 +3,7 @@ title: "Analyzing .NET Core project dependencies: Finding transitive dependencie
 description:
   Demonstrate how to use the .NET Core CLI to find transitive dependencies for any .NET Core project.
 tags:
-- .net core
+- dotnet core
 date: 2018-06-26
 ---
 

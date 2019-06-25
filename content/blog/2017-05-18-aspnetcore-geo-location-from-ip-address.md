@@ -3,7 +3,7 @@ date: 2017-05-18T00:00:00Z
 description: |
   You can determine a user's location from their IP Address. It is not as accurate as the HTML 5 Geolocation API, but their are many instances where this is acceptable.
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - maxmind

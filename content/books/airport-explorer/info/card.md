@@ -23,7 +23,7 @@ We will be using [Tailwind CSS](https://tailwindcss.com/), which is a CSS utilit
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 ```
 
-We will also be using [Font Awesome](fontawesome.io/), so go ahead and include the stylesheet for that as well:
+We will also be using [Font Awesome](https://fontawesome.com/), so go ahead and include the stylesheet for that as well:
 
 ```html
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />

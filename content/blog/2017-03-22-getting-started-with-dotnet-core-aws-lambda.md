@@ -3,7 +3,7 @@ date: 2017-03-22T00:00:00Z
 description: |
   A look at some resources to get you started with developing .NET Core applications hosted on AWS Lambda
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - aws

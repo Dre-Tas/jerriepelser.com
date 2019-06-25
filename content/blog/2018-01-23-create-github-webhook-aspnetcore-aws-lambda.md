@@ -4,7 +4,7 @@ description: |
   AWS Lambda is an ideal use case for developing GitHub Webhooks. Here's looking at how you can implement one using ASP.NET Core.
 date: 2018-01-23
 tags:
-- .net core
+- dotnet core
 - asp.net
 - asp.net core
 - aws

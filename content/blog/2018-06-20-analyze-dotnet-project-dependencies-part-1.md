@@ -3,7 +3,7 @@ title: "Analyzing .NET Core project dependencies: Finding Package References"
 description:
   Demonstrate how to use the .NET Core CLI to analyze dependencies for any .NET Core project.
 tags:
-- .net core
+- dotnet core
 date: 2018-06-20
 ---
 

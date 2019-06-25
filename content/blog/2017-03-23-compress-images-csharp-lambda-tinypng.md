@@ -3,7 +3,7 @@ date: 2017-03-23T00:00:00Z
 description: |
   Get started with C# and .NET Core by creating a Lambda function which compresses images uploaded to S3 using TinyPNG.
 tags:
-- .net core
+- dotnet core
 - aws
 - aws lambda
 - aws s3

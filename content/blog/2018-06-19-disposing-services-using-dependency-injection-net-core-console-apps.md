@@ -3,7 +3,7 @@ title: "Disposing of services when using Dependency Injection with .NET Core con
 description:
   Look at how you can ensure that services are disposed of when using dependency injection with .NET Core Console applications.
 tags:
-- .net core
+- dotnet core
 - dependency injection
 ---
 
