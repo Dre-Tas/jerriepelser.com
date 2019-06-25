@@ -1,0 +1,16 @@
+{{ define "main" }} 
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="title mb-4">All Tags</h1>
+            <ul>
+                {{ range .Site.Taxonomies.tags }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</div>
+
+{{ end }}
