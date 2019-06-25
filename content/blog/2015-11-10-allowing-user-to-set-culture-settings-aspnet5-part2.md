@@ -13,7 +13,7 @@ url: /blog/allowing-user-to-set-culture-settings-aspnet5-part2/
 
 ## Introduction
 
-In my [previous blog post](http://www.jerriepelser.com/blog/allowing-user-to-set-culture-settings-aspnet5-part1) I demonstrated how we can allow the user to save their culture preferences, and then apply the correct culture preferences once the user has signed in.
+In my [previous blog post](/blog/allowing-user-to-set-culture-settings-aspnet5-part1) I demonstrated how we can allow the user to save their culture preferences, and then apply the correct culture preferences once the user has signed in.
 
 We allowed the user to set the Culture and the UI Culture, but I think in a real world scenario that is not very realistic. Typically we will want to give the user more fine-grained control to set their language, date format, time format, currency etc.
 
@@ -40,7 +40,7 @@ var ci = new CultureInfo("af-ZA")
 ci.DateTimeFormat.ShortDatePattern = "dd/MM/yyyy";
 ```
 
-So in understanding these two principles, we are going to extend the example from the [previous blog post](http://www.jerriepelser.com/blog/allowing-user-to-set-culture-settings-aspnet5-part1) to allow the user to select a language, and then also specify their preferred date, time and currency formats.
+So in understanding these two principles, we are going to extend the example from the [previous blog post](/blog/allowing-user-to-set-culture-settings-aspnet5-part1) to allow the user to select a language, and then also specify their preferred date, time and currency formats.
 
 ## Changing the database model
 

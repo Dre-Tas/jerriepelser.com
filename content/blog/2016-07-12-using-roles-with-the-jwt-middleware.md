@@ -20,7 +20,7 @@ First of all I head over to [JWT.io](https://www.jwt.io) and create a JSON Web T
 
 ```json
 {
-  "iss": "http://www.jerriepelser.com",
+  "iss": "https://www.jerriepelser.com",
   "aud": "blog-readers",
   "sub": "123456",
   "exp": 1499863217,
@@ -47,7 +47,7 @@ public class Startup
         {
             TokenValidationParameters =
             {
-                ValidIssuer = "http://www.jerriepelser.com",
+                ValidIssuer = "https://www.jerriepelser.com",
                 ValidAudience = "blog-readers",
                 IssuerSigningKey = new SymmetricSecurityKey(keyAsBytes)
             }
@@ -86,7 +86,7 @@ So when I make a call to the `/claims` endpoint above, and pass the JWT generate
 [
   {
     "type": "iss",
-    "value": "http://www.jerriepelser.com"
+    "value": "https://www.jerriepelser.com"
   },
   {
     "type": "aud",

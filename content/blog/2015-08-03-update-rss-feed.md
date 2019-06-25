@@ -12,4 +12,4 @@ Hey, just a quick note that I will be switching this blog over to Jekyll sometim
 
 I have updated the URL for the feed on the current blog to also be `/feed.xml` to ensure a smooth switch over.
 
-I want to ask you however to please re-subscribe to my feed on the new URL which is [http://www.jerriepelser.com/feed.xml](http://www.jerriepelser.com/feed.xml).
+I want to ask you however to please re-subscribe to my feed on the new URL which is [/feed.xml](/feed.xml).

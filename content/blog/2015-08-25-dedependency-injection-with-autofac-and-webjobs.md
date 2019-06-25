@@ -12,7 +12,7 @@ url: /blog/dedependency-injection-with-autofac-and-webjobs/
 
 ## Introduction
 
-At the end of last year [I wrote a blog post](http://www.jerriepelser.com/blog/using-autofac-and-common-service-locator-with-azure-webjobs) that demonstrated how you could use Autofac and the Common Service Locator in Azure WebJobs to resolve dependencies. At that time there was no way to inject dependencies, as Azure WebJobs functions had to be static methods and therefore there was no object instance into which dependencies could be injected. The Service Locator pattern worked fine for that scenario, but it was not necessarily an ideal situation.
+At the end of last year [I wrote a blog post](/blog/using-autofac-and-common-service-locator-with-azure-webjobs) that demonstrated how you could use Autofac and the Common Service Locator in Azure WebJobs to resolve dependencies. At that time there was no way to inject dependencies, as Azure WebJobs functions had to be static methods and therefore there was no object instance into which dependencies could be injected. The Service Locator pattern worked fine for that scenario, but it was not necessarily an ideal situation.
 
 Things have changed in the meantime and with the [release of version 1.0.1 of the WebJobs SDK](https://azure.microsoft.com/blog/2015/02/24/announcing-the-1-0-1-alpha-preview-of-microsoft-azure-webjobs-sdk/) you are no longer limited to static methods, as instance methods can also be triggered by the SDK.
 
@@ -20,7 +20,7 @@ In this blog post I will show how you can use Autofac to inject dependencies int
 
 ## Preparation
 
-As per the previous blog post, I am once again building a web job that processes messages [sent to me by Dropbox using a web hook](http://www.jerriepelser.com/blog/creating-a-dropbox-webhook-in-aspnet). I have also created a very light wrapper around the Dropbox API using [Refit](https://github.com/paulcbetts/refit).
+As per the previous blog post, I am once again building a web job that processes messages [sent to me by Dropbox using a web hook](/blog/creating-a-dropbox-webhook-in-aspnet). I have also created a very light wrapper around the Dropbox API using [Refit](https://github.com/paulcbetts/refit).
 
 > If you want a quick introduction to Refit, [I have created a video](https://youtu.be/Myv7Hb90s5A) on my AspnetCasts YouTube channel which you can look at.
 

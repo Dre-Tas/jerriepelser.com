@@ -322,4 +322,4 @@ That is all that is needed. You can now run the project again an you should see 
 
 ![](/assets/images/webapi-angular-grid/ng-table-grid.png)
 
-In [Part 4](http://www.jerriepelser.com/blog/webapi-angular-grid-part-4) we will look at adding sorting and filtering.
+In [Part 4](/blog/webapi-angular-grid-part-4) we will look at adding sorting and filtering.

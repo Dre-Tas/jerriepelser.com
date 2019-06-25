@@ -11,7 +11,7 @@ title: 'Allowing user to set culture settings in ASP.NET 5: Part 1'
 url: /blog/allowing-user-to-set-culture-settings-aspnet5-part1/
 ---
 
-In a [previous blog post](http://www.jerriepelser.com/blog/how-aspnet5-determines-culture-info-for-localization) I demonstrated how ASP.NET 5 determines which Culture settings to use when serving a request. That is fine for many cases, but in some instances you want to allow users to save their culture settings preferences in their user profile.
+In a [previous blog post](/blog/how-aspnet5-determines-culture-info-for-localization) I demonstrated how ASP.NET 5 determines which Culture settings to use when serving a request. That is fine for many cases, but in some instances you want to allow users to save their culture settings preferences in their user profile.
 
 This is Part 1 in a 2 part series when I will demonstrate how you can do this. In this blog post I will show you how we can allow a user to pick a specific culture and then save that against their user profile. In the next blog post I will demonstrate how we can allow the user to store the culture settings at an even more fine-grained level.
 
@@ -301,7 +301,7 @@ public async Task<IActionResult> ConfigureCultureInfo(ConfigureCultureInfoViewMo
 
 ## Create a custom Request Culture Provider
 
-Phew. I hope you're still keeping up. The next and final step is to create our own Request Culture Provider. Remember when I spoke about [how ASP.NET 5 determines the Culture for a request](http://www.jerriepelser.com/blog/how-aspnet5-determines-culture-info-for-localization)?. In that blog post I mentioned the list of Request Culture Providers which are defined in the `RequestLocalizationOptions` class. 
+Phew. I hope you're still keeping up. The next and final step is to create our own Request Culture Provider. Remember when I spoke about [how ASP.NET 5 determines the Culture for a request](/blog/how-aspnet5-determines-culture-info-for-localization)?. In that blog post I mentioned the list of Request Culture Providers which are defined in the `RequestLocalizationOptions` class. 
 
 What we need to do now is to go and write our own class and then register it along with the other providers. To create the Request Culture Provider I borrow the code from Microsoft's [QueryStringRequestCultureProvider](https://github.com/aspnet/Localization/blob/dev/src/Microsoft.AspNet.Localization/QueryStringRequestCultureProvider.cs) class and adapt it for my own purposes:
 
@@ -405,4 +405,4 @@ Now when I navigate back to the home page you can see that the Culture settings 
 
 In this blog post I demonstrated how we can allow the user to specify their own culture settings. In the next post I will demonstrate how we can allow the user even more flexibility by allowing them to override their date and time formats.
 
-For non-signed in users, or users who have not specified specific culture settings, the same rules apply as I described in [How ASP.NET Determines the Culture Settings for Localization](http://www.jerriepelser.com/blog/how-aspnet5-determines-culture-info-for-localization). When a user is signed in and they have chosen to specify custom culture settings, those will take highest priority over all the other methods which determine the culture settings.
+For non-signed in users, or users who have not specified specific culture settings, the same rules apply as I described in [How ASP.NET Determines the Culture Settings for Localization](/blog/how-aspnet5-determines-culture-info-for-localization). When a user is signed in and they have chosen to specify custom culture settings, those will take highest priority over all the other methods which determine the culture settings.

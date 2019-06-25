@@ -11,7 +11,7 @@ title: 'Reasons I like NSubstitute: Generate output based on input parameters'
 url: /blog/generate-nsubstitute-output-based-on-input/
 ---
 
-NSubstitute is my current mocking framework of choice. It contains all the features I require in a mocking framework and is well maintained. I previously mentioned as one of my [favourite Nuget packages for .NET](http://www.jerriepelser.com/blog/my-favourite-nuget-packages-for-dotnet) and I also showed how you can [mock abstract classes](http://www.jerriepelser.com/blog/mocking-abstract-class-using-nsubstitute). 
+NSubstitute is my current mocking framework of choice. It contains all the features I require in a mocking framework and is well maintained. I previously mentioned as one of my [favourite Nuget packages for .NET](/blog/my-favourite-nuget-packages-for-dotnet) and I also showed how you can [mock abstract classes](/blog/mocking-abstract-class-using-nsubstitute). 
 
 In this blog post I want to talk a little bit about one of the many reasons I like NSubstitute, namely the ability to generate the output of a mocked function call based on the parameters passed into the function. First though let's have a quick look at some basic examples of how you would mock a function call. 
 

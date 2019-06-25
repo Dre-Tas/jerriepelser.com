@@ -13,7 +13,7 @@ url: /blog/using-enum-aspnet-5-select-taghelper/
 
 ## Introduction
 
-In a previous blog post I demonstrated the [support for option groups in the new Select TagHelper in MVC 6](http://www.jerriepelser.com/blog/using-option-groups-with-mvc6-select-taghelper). Someone asked about using enums with the Select TagHelper, so let us look at how you can use enums with the TagHelper.
+In a previous blog post I demonstrated the [support for option groups in the new Select TagHelper in MVC 6](/blog/using-option-groups-with-mvc6-select-taghelper). Someone asked about using enums with the Select TagHelper, so let us look at how you can use enums with the TagHelper.
 
 **This blog post is based on ASP.NET 5 Beta 7.** 
 

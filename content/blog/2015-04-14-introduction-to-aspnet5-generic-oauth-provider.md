@@ -25,7 +25,7 @@ Thankfully with ASP.NET 5 the guys from Microsoft have been developing a generic
 
 I am writing a couple of blog posts which will cover the following:
 1. An overview of the new generic OAuth provider and how to configure it (this blog post)
-2. [Some more advanced configuration scenarios](http://www.jerriepelser.com/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider)
+2. [Some more advanced configuration scenarios](/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider)
 
 I am writing these blog posts with Visual Studio CTP 6 and ASP.NET 5 Beta 3. Things are bound to change from here on in, so if you are reading this a few months down the line, hopefully things are still familiar enough for you to make sense of them.
 

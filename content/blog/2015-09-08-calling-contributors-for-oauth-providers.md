@@ -11,7 +11,7 @@ url: /blog/calling-contributors-for-oauth-providers/
 
 ## Introduction
 
-Almost two years ago I did a fun little experiment to see whether I could develop a [Google+ OAuth provider for ASP.NET MVC 5](http://www.jerriepelser.com/blog/google-oauth-sign-asp-net-identity). I then followed it up and created [Yahoo and LinkedIn providers as well](http://www.jerriepelser.com/blog/introducing-the-yahoo-linkedin-oauth-security-providers-for-owin) and decided that it was probably time to turn it into an open source project.
+Almost two years ago I did a fun little experiment to see whether I could develop a [Google+ OAuth provider for ASP.NET MVC 5](/blog/google-oauth-sign-asp-net-identity). I then followed it up and created [Yahoo and LinkedIn providers as well](/blog/introducing-the-yahoo-linkedin-oauth-security-providers-for-owin) and decided that it was probably time to turn it into an open source project.
 
 The [resulting project](https://github.com/RockstarLabs/OwinOAuthProviders) has been fairly successful and has 38 providers with 284 commits from 38 different contributors. The total number of downloads for [the Nuget package](https://www.nuget.org/packages/owin.security.providers) is at this moment just shy of 40,000 downloads.
 
@@ -21,17 +21,17 @@ I am however not too good at reviewing pull requests and I have let various litt
 
 Well, with ASP.NET 5 it is time for a new beginning and there is a new Sheriff in town. His name is [Kévin Chalet](https://twitter.com/PinpointTownes), a.k.a. [PinpointTownes](https://github.com/PinpointTownes).
 
-Kévin is the man behind the new [generic OAuth provider](https://github.com/aspnet/Security/tree/dev/src/Microsoft.AspNet.Authentication.OAuth) in ASP.NET 5 about which I [have blogged before](http://www.jerriepelser.com/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider). 
+Kévin is the man behind the new [generic OAuth provider](https://github.com/aspnet/Security/tree/dev/src/Microsoft.AspNet.Authentication.OAuth) in ASP.NET 5 about which I [have blogged before](/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider). 
 
 Kévin has also started an initiative to develop a set of OAuth providers specific to the various services - similar to what I did for ASP.NET MVC 5. It is available on Github at [aspnet-contrib/AspNet.Security.OAuth.Providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers).
 
 First perhaps, let us answer an fairly obvious question: **Why specific implementations when there is a generic OAuth implementation in ASP.NET 5?**
 
-The answer is because the generic implementation only takes you so far. Sure, it does the basic authentication and you can get an Access token. For it to integrate properly with ASP.NET Identity however you need to do a bit of extra work, namely to retrieve information about the current user from the underlying service. I demonstrated this in my follow-up blog post entitled [Advanced configuration in the ASP.NET 5 Generic OAuth Provider](http://www.jerriepelser.com/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider).
+The answer is because the generic implementation only takes you so far. Sure, it does the basic authentication and you can get an Access token. For it to integrate properly with ASP.NET Identity however you need to do a bit of extra work, namely to retrieve information about the current user from the underlying service. I demonstrated this in my follow-up blog post entitled [Advanced configuration in the ASP.NET 5 Generic OAuth Provider](/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider).
 
 Specifically, ASP.NET Identity relies on the `NameIdentifier` claim to be set. The value for this claim must be a unique identifier for the user on that specific service provider - typically this is a unique integer or GUID value. To retrieve that value involves making an extra API call to the relevant service provider, and the specifics of it differs from one service provider to the next. Each service provider has a different API endpoint and the actual data structure which they return will also be different. 
 
-Now sure, you can use the generic provider and then go and write this code yourself like I did in the [Advanced configuration in the ASP.NET 5 Generic OAuth Provider](http://www.jerriepelser.com/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider) blog post, but why go through this pain when you can just include a small Nuget package that does all this work for you?
+Now sure, you can use the generic provider and then go and write this code yourself like I did in the [Advanced configuration in the ASP.NET 5 Generic OAuth Provider](/blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider) blog post, but why go through this pain when you can just include a small Nuget package that does all this work for you?
 
 So far Kévin has done the provider for GitHub and I have done the ones for Yahoo, LinkedIn and WordPress. 
 

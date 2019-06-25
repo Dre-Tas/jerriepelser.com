@@ -12,7 +12,7 @@ url: /blog/paging-in-aspnet-webapi-http-headers/
 
 ## Introduction
 
-In the [previous post](http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-json-envelope) I did paging using both an offset based mechanism as well as a page based mechanism and returned the result inside a JSON envelope. In this blog post I will discard the envelope and return a simple JSON array of objects while returning the paging meta information in HTTP Headers. In the second part of the blog post I will also change the Web API method so that users of the API can request a specific page and specify the page size through a HTTP headers instead of query string parameters.
+In the [previous post](/blog/paging-in-aspnet-webapi-json-envelope) I did paging using both an offset based mechanism as well as a page based mechanism and returned the result inside a JSON envelope. In this blog post I will discard the envelope and return a simple JSON array of objects while returning the paging meta information in HTTP Headers. In the second part of the blog post I will also change the Web API method so that users of the API can request a specific page and specify the page size through a HTTP headers instead of query string parameters.
 
 ## Return paging information in HTTP response headers
 

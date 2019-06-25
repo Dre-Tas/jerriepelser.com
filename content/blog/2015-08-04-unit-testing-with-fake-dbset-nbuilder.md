@@ -13,7 +13,7 @@ url: /blog/unit-testing-with-fake-dbset-nbuilder/
 
 ## Introduction
 
-I have mentioned in a [previous blog post](http://www.jerriepelser.com/blog/creating-test-data-with-nbuilder-and-faker) that I make use of NBuilder and Faker.NET to create test data for my application in development and testing scenarios. 
+I have mentioned in a [previous blog post](/blog/creating-test-data-with-nbuilder-and-faker) that I make use of NBuilder and Faker.NET to create test data for my application in development and testing scenarios. 
 
 I also make use of NBuilder to set up scenarios for testing queries against my DbContext to ensure that the correct data is returned from a query. 
 

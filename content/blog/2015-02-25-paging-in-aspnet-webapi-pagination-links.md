@@ -12,7 +12,7 @@ url: /blog/paging-in-aspnet-webapi-pagination-links/
 
 ## Introduction
 
-So far in the series we have looked in the first post at an [introduction to paging in REST APIs](http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-introduction) and then looked at some specific implementations in ASP.NET Web API. In the second post I demonstrated how you could [return pagination information in a simple JSON envelope](http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-json-envelope), and in the third post I [returned and requested all pagination information through HTTP headers](http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-http-headers). One constant so far in the previous two posts was that we would return details such as the page number, page size and number of pages in the pagination information. 
+So far in the series we have looked in the first post at an [introduction to paging in REST APIs](/blog/paging-in-aspnet-webapi-introduction) and then looked at some specific implementations in ASP.NET Web API. In the second post I demonstrated how you could [return pagination information in a simple JSON envelope](/blog/paging-in-aspnet-webapi-json-envelope), and in the third post I [returned and requested all pagination information through HTTP headers](/blog/paging-in-aspnet-webapi-http-headers). One constant so far in the previous two posts was that we would return details such as the page number, page size and number of pages in the pagination information. 
 
 There is however a different approach which APIs [like GitHub](https://developer.github.com/v3/#pagination) takes and that is to return links which allow the end user of the API to page between different result sets. This means that the user of the API don't have to build up the URL to do paging, we give it to them. In the first part of this blog post I will show how to build up the links and return them as part of a JSON envelope. In the second part we will return them in the [HTTP Link header](http://tools.ietf.org/html/rfc5988).
 
@@ -113,7 +113,7 @@ http://localhost:7965/api/customers/pagelinks?sort=FirstName&pageNo=1&pageSize=5
 
 ## Returning pagination links in a JSON envelope
 
-With all that behind us I can simply copy the code I used in my blog post on returning a [JSON envelope](http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-json-envelope) and modify it a little bit to call the `PageLinkBuilder` class. I then take the links returned from the `PageLinkBuilder` and use that to build up a JSON envelope which contains the list of customers in a `Data` property and all the pagination links in a `Paging` property. 
+With all that behind us I can simply copy the code I used in my blog post on returning a [JSON envelope](/blog/paging-in-aspnet-webapi-json-envelope) and modify it a little bit to call the `PageLinkBuilder` class. I then take the links returned from the `PageLinkBuilder` and use that to build up a JSON envelope which contains the list of customers in a `Data` property and all the pagination links in a `Paging` property. 
 
 ``` csharp
 [HttpGet]
@@ -179,7 +179,7 @@ Link: <http://localhost:7965/api/customers/pagelinks?pageNo=1&pageSize=50>; rel=
 
 > Linebreaks in example header above included for readability :)
 
-So same as per the JSON envelope example above we will create an instance of the `PageLinkBuilder` class to help construct the links, and then use that to build up the links. Also once again, same as in the previous post on [returning pagination information via the HTTP headers](http://www.jerriepelser.com/blog/paging-in-aspnet-webapi-http-headers), I will opt for using a `HttpResponseMessage` as the result of my API method, instead of using `IHttpActionResult` as it makes it easier to manipulate the headers. 
+So same as per the JSON envelope example above we will create an instance of the `PageLinkBuilder` class to help construct the links, and then use that to build up the links. Also once again, same as in the previous post on [returning pagination information via the HTTP headers](/blog/paging-in-aspnet-webapi-http-headers), I will opt for using a `HttpResponseMessage` as the result of my API method, instead of using `IHttpActionResult` as it makes it easier to manipulate the headers. 
 
 Here's the code for the full method:
 

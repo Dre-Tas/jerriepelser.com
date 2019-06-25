@@ -176,4 +176,4 @@ If you see the text "{{ vm.title }}" it means the expression was not successfull
 ## Conclusion
 In this blog post I created the basic framework for the application and ensured that all the infrastructure is in place. Next time will will create an API to get the list of customers and hook it up to the grid.
 
-In [Part 2](http://www.jerriepelser.com/blog/webapi-angular-grid-part-2), we will be adding a basic grid. 
+In [Part 2](/blog/webapi-angular-grid-part-2), we will be adding a basic grid. 

@@ -13,7 +13,7 @@ title: Unit Testing with NBuilder and NSubstitute using either a FakeDBSet or a 
 url: /blog/unit-testing-nbuilder-fake-or-mock-dbset/
 ---
 
-In the [previous blog post](http://www.jerriepelser.com/blog/unit-testing-with-fake-dbset-nbuilder) I showed how you can unit test with NBuilder and NSubstitute by using a FakeDbSet implementation. The thing is that we do not necessarily have to use a FakeDbSet but can also try and mock the DbSet.
+In the [previous blog post](/blog/unit-testing-with-fake-dbset-nbuilder) I showed how you can unit test with NBuilder and NSubstitute by using a FakeDbSet implementation. The thing is that we do not necessarily have to use a FakeDbSet but can also try and mock the DbSet.
 
 Let's see how we can changes the implementation from last week's blog post to mock DbSet instead.
 
@@ -96,7 +96,7 @@ public ActionResult Details(int? id)
 }
 ```
 
-It turns out that the call to `Find()` returns a null Product, and I will need to mock that method on my DbSet as well. To return the correct value for the `Find()` method of my mock object I used the technique I demonstrated in a previous blog post which [generates return values for NSubstitute mock objects based on the calling arguments](http://www.jerriepelser.com/blog/generate-nsubstitute-output-based-on-input).
+It turns out that the call to `Find()` returns a null Product, and I will need to mock that method on my DbSet as well. To return the correct value for the `Find()` method of my mock object I used the technique I demonstrated in a previous blog post which [generates return values for NSubstitute mock objects based on the calling arguments](/blog/generate-nsubstitute-output-based-on-input).
 
 Remember that the signature of the `Find()` method is as follows:
 

@@ -12,7 +12,7 @@ title: 'Building an interactive grid with ASP.NET Web API and AngularJS: Add sor
 url: /blog/webapi-angular-grid-part-4/
 ---
 
-In [Part 3](http://www.jerriepelser.com/blog/webapi-angular-grid-part-3) of the series we finally added ngTable into the mix which allows us to display the data in a table and also page through the data. In this blog post we will look at adding sorting capabilities to our table.
+In [Part 3](/blog/webapi-angular-grid-part-3) of the series we finally added ngTable into the mix which allows us to display the data in a table and also page through the data. In this blog post we will look at adding sorting capabilities to our table.
 
 ## Setting ngTable up for sorting
 Allowing users to sort by a column in ngTable is as easy as adding a `data-sortable` attribute to each column for which we want to allow sorting. The `data-sortable` also need to specify the name of the field by which will be sorted. So open the `Index.cshtml` file and change the two existing columns to add sorting:
@@ -210,5 +210,5 @@ You will notice that I added a check to see whether the sort parameter was speci
 
 And that all there is to it. It looks a little complex because there are so many pieces coming together, but it really is fairly simple. If you are looking at this and going "Dude, WTF?" then please grab the source code from GitHub, put a few breakpoints where something does not make sense to you to debug and gain a better understanding.
 
-In [Part 5](http://www.jerriepelser.com/blog/webapi-angular-grid-part-5) we will be adding searching.
+In [Part 5](/blog/webapi-angular-grid-part-5) we will be adding searching.
 

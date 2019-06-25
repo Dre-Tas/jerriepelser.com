@@ -13,7 +13,7 @@ url: /blog/unit-testing-aspnet5-entityframework7-inmemory-database/
 
 ## Introduction
 
-A number of months ago I wrote about how you could [unit test with Entity Framework using a fake DbSet and NBuilder](http://www.jerriepelser.com/blog/unit-testing-with-fake-dbset-nbuilder). It's been almost 4 months since that post and I have done quite a lot of work using ASP.NET 5 in the meantime. So I thought I would write an updated version of that blog post, using ASP.NET 5 and Entity Framework 7.
+A number of months ago I wrote about how you could [unit test with Entity Framework using a fake DbSet and NBuilder](/blog/unit-testing-with-fake-dbset-nbuilder). It's been almost 4 months since that post and I have done quite a lot of work using ASP.NET 5 in the meantime. So I thought I would write an updated version of that blog post, using ASP.NET 5 and Entity Framework 7.
 
 In this blog post I am going to show you a very simple scenario where I have a `ProductsController` class which displays a list of products, and also allows the user to select a product and navigate to a details page.
 
@@ -369,7 +369,7 @@ In this blog post I demonstrated how you can use the new In-Mmeory database in E
 
 ## References
 
-* My previous blog post on [Unit Testing Controllers in ASP.NET 5 (MVC 6)](http://www.jerriepelser.com/blog/unit-testing-controllers-aspnet5)
+* My previous blog post on [Unit Testing Controllers in ASP.NET 5 (MVC 6)](/blog/unit-testing-controllers-aspnet5)
 * Dave Paquette's blog post on [Realistic Sample Data with GenFu](http://www.davepaquette.com/archive/2015/11/15/realistic-sample-data-with-genfu.aspx)
 * The XUnit documentation on [Getting Started with xUnit.net (DNX / ASP.NET 5)](https://xunit.github.io/docs/getting-started-dnx.html)
 * The EF 7 documentation on [adding EF7 to and ASP.NET 5 Application and creating a new database](http://docs.efproject.net/en/latest/getting-started/aspnet5/new-db.html)

@@ -13,7 +13,7 @@ url: /blog/advanced-configuration-in-the-aspnet5-generic-oauth-provider/
 
 ## Introduction
 
-In my [previous blog post](http://www.jerriepelser.com/blog/introduction-to-aspnet5-generic-oauth-provider) I introduced the new generic OAuth 2 authentication provider which has been added to ASP.NET 5 by showing you how to configure it to authenticate with GitHub. In this blog post I will discuss two more advanced configuration options, namely requesting extra permissions via the Scope, and retrieving user information after authorization.
+In my [previous blog post](/blog/introduction-to-aspnet5-generic-oauth-provider) I introduced the new generic OAuth 2 authentication provider which has been added to ASP.NET 5 by showing you how to configure it to authenticate with GitHub. In this blog post I will discuss two more advanced configuration options, namely requesting extra permissions via the Scope, and retrieving user information after authorization.
 
 The code I use in this blog post is mostly a straight forward copy-and-paste exercise from [the sample in the ASP.NET Security repo on GitHub](https://github.com/aspnet/Security/tree/775eb5ece452e10a27aa166f52b58a6c0b615d18/samples/SocialSample).
 

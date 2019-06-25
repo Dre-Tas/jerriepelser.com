@@ -12,7 +12,7 @@ url: /blog/webapi-angular-grid-part-2/
 ---
 
 ## Introduction
-In [Part 1](http://www.jerriepelser.com/blog/webapi-angular-grid-part-1) I covered the introduction to this series and also went through the basic setup to add the required Javascript libraries and added the basis for our AngularJS application. In this blog post I will go through adding the Entity Framework model, the API for retrieving a list of customer and also hooking up the AngularJS frontend to the Web API and display the list of customers on the page.
+In [Part 1](/blog/webapi-angular-grid-part-1) I covered the introduction to this series and also went through the basic setup to add the required Javascript libraries and added the basis for our AngularJS application. In this blog post I will go through adding the Entity Framework model, the API for retrieving a list of customer and also hooking up the AngularJS frontend to the Web API and display the list of customers on the page.
 
 ## Creating the Entity Framework models
 The data model is going to be very basic and include only a `Customer` entity with a first name and last name. I am not going to go though the process of creating the Entity Framework model in much detail, so if you are not familiar with this please have a look at Tom Dykstra's tutorial on the ASP.NET website entitled [Getting Started with Entity Framework 6 Code First using MVC 5](http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
@@ -253,4 +253,4 @@ I am also skipping quickly over a lot of things otherwise these blog posts are g
 ## Conclusion
 In this blog post I created an Entity Framework model for customers and a Web API which returns those list of customers. I also demonstrated how to use Restangular to communicate with the Web API to retrieve the list of customers and then used the Angular `ngRepeat` directive to display the list of customers.
 
-In [Part 3](http://www.jerriepelser.com/blog/webapi-angular-grid-part-3) I will add paging to the customers API and also replace the simple list with ngTable.
+In [Part 3](/blog/webapi-angular-grid-part-3) I will add paging to the customers API and also replace the simple list with ngTable.

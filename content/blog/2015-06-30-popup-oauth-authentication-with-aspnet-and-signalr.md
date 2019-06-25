@@ -16,7 +16,7 @@ One of the SaaS tools which I like to use for all sorts of small app-to-app inte
 
 For a recent project I was involved in I had to do something similar, so I have extracted the techniques into a demo application and I am writing this blog post to show how easy it is to do something like this. 
   
-This blog post builds on a previous blog post I did about [Using the ASP.NET OAuth providers without ASP.NET Identity](http://www.jerriepelser.com/blog/using-aspnet-oauth-providers-without-identity). This example therefore does not use ASP.NET Identity, but the concepts I will demonstrate in this blog post can certainly be applied to a normal ASP.NET MVC application which uses ASP.NET Identity.
+This blog post builds on a previous blog post I did about [Using the ASP.NET OAuth providers without ASP.NET Identity](/blog/using-aspnet-oauth-providers-without-identity). This example therefore does not use ASP.NET Identity, but the concepts I will demonstrate in this blog post can certainly be applied to a normal ASP.NET MVC application which uses ASP.NET Identity.
 
 ## Cleaning up a few things from the previous example
 

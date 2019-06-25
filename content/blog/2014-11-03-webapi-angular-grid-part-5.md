@@ -12,7 +12,7 @@ title: 'Building an interactive grid with ASP.NET Web API and AngularJS: Add sea
 url: /blog/webapi-angular-grid-part-5/
 ---
 
-In [Part 4](http://www.jerriepelser.com/blog/webapi-angular-grid-part-4) of this series, I added sorting to the table. In this blog post I will add a search box which allows users to search for customers by first name or last name. Whenever a user types something into the search box we will automatically trigger a new request to the API to filter the customers based on the text the user entered. 
+In [Part 4](/blog/webapi-angular-grid-part-4) of this series, I added sorting to the table. In this blog post I will add a search box which allows users to search for customers by first name or last name. Whenever a user types something into the search box we will automatically trigger a new request to the API to filter the customers based on the text the user entered. 
 
 ## Add a search box
 
