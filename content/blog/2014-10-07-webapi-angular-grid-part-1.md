@@ -43,7 +43,7 @@ The Nuget package will install a whole bunch of javascript files into the `Scrip
 The Nuget package for Restangular was outdated so you can go to the Github releases for Restangular (https://github.com/mgonto/restangular/releases) and download the latest version. Extract the .ZIP file and copy the files `restangular.js` and `restangular.min.js` to your `Scripts` folder.
 
 ### Underscore
-Restangular requires either Lodash or Underscore to be installed. Go to the Underscore page at http://documentcloud.github.io/underscore/ and download the latest minified version. Copy the file (`underscore-min.js`) to your `Scripts` folder. You can also optionally download the source map file (`underscore-min.map`) and copy that to the `Scripts` folder. 
+Restangular requires either Lodash or Underscore to be installed. Go to the Underscore page at https://underscorejs.org/ and download the latest minified version. Copy the file (`underscore-min.js`) to your `Scripts` folder. You can also optionally download the source map file (`underscore-min.map`) and copy that to the `Scripts` folder. 
 
 ### ngTable
 Go to to ngtable website (http://bazalt-cms.com/ng-table/), download the latest version and extract the .ZIP file. Copy the files `ng-table.js`, `ng-table.min.js` and `ng-table.map` to your `Scripts` folder. Copy the stylesheet files (`ng-table.css`, `ng-table.min.css` and `ng-table.less`) to your `Content` folder.

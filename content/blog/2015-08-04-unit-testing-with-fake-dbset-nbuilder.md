@@ -173,7 +173,7 @@ Install-Package TestStack.FluentMVCTesting
 
 Entity Framework is needed for the `FakeDbSet` class I will add, NSubstitute is used as the mocking framework, and NBuilder will be used to create the actual fake data.  
 
-The FluentMVCTesting package allows me to unit test my controllers in a fluent way. For more details have a look at the blog post called [Testing ASP.Net MVC Controllers with FluentMVCTesting](http://dontcodetired.com/blog/post/Testing-ASPNet-MVC-Controllers-with-FluentMVCTesting.aspx) by Jason Roberts.
+The FluentMVCTesting package allows me to unit test my controllers in a fluent way. For more details have a look at the blog post called [Testing ASP.Net MVC Controllers with FluentMVCTesting](http://dontcodetired.com/blog/post/Testing-ASPNet-MVC-Controllers-with-FluentMVCTesting) by Jason Roberts.
 
 I use the FakeDbSet implementation in [this blog post](http://coding.grax.com/2013/04/FakeDbSet.html) by David Walker. Copy the code for his class and add it to your unit test project.
 
