@@ -25,3 +25,6 @@ baseName = "feed"
 
 [frontmatter]
 date  = [":filename", ":default"]
+
+[taxonomies]
+tag = "tags"
