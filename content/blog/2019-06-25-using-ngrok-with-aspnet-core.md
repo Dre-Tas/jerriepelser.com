@@ -73,3 +73,5 @@ Having the public URL change every time you restart ngrok can be a bit of a nuis
 ## Conclusion
 
 ngrok provides a convenient way of exposing your local development web server to other devices on the public internet. This can be useful in scenarios like testing and debugging webhooks.
+
+BTW, **there is an alternative way to do this**, and that is with a Visual Studio extension called Conveyor. Be sure to check out my follow-up blog post describing [how to use Conveyor to access your IIS Express app over the internet](/blog/use-conveyor-access-iis-app-over-internet/).
