@@ -4,7 +4,6 @@ description:
   Demonstrate how to use the .NET Core CLI to analyze dependencies for any .NET Core project.
 tags:
 - dotnet core
-date: 2018-06-20
 ---
 
 When developing [dotnet-outdated](https://github.com/jerriep/dotnet-outdated) I had to find a way to determine the packages referenced by a project. At first, I was using [BuildAlyzer](https://github.com/daveaglick/Buildalyzer), but after a suggestion from a user, I decided to look into using the .NET Core CLI itself to generate a dependency graph.
