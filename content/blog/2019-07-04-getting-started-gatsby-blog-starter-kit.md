@@ -8,7 +8,7 @@ tags:
 - gatsby
 ---
 
-## Create a new website with the starter kit
+## Creating a new website with the starter kit
 
 As I mentioned in the [previous blog post](/blog/migrating-blog-hugo-to-gatsby), I am migrating my website over to Gatsby. Initially, I considered starting from a blank slate and build everything up from scratch, but I dropped that idea and decided to speed things up, by using the Gatsby [blog starter kit](https://www.gatsbyjs.org/starters/gatsbyjs/gatsby-starter-blog/).
 
@@ -82,7 +82,7 @@ Switching back to the browser and refreshing my Gatsby website, you can see thos
 
 At this point, I am happy about making progress, but there are several issues.
 
-1. The blog starter kit each blog post in its own folder. My existing Hugo structure has all blog posts as individual files under the same folder. I like the Gatsby layout more for reason I'll discuss next time.
+1. The blog starter kit puts each blog post in its own folder. My existing Hugo structure has all blog posts as individual files under the same folder. I like the Gatsby layout more for reasons I'll discuss next time.
 1. All blog posts are on the path `/blog-post-slug`. My existing website has all blog posts are on the path `/blog/blog-post-slug`. I want to keep the blog posts under `/blog/*` both for organizational purposes but also to ensure I don't have broken links when I migrate across.
 1. My blog posts don't have dates. There is no frontmatter for the date as it is derived from the filename. You can see in the screenshots above that in Hugo all the filenames for the blog posts start with the date (in `yyyy-mm-dd` format).
 1. Also, because of the above, the actual slug for the blog posts I copied from Hugo contains the date in the slug for the blog posts (e.g. `/2019-06-26-use-conveyor-access-iis-app-over-internet`). I do not want this.
