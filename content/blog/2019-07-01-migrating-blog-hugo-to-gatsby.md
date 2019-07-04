@@ -1,7 +1,7 @@
 ---
-title: "Migrating my blog from Hugo to Gatsby"
+title: "Migrating my website from Hugo to Gatsby"
 description:
-  I have decided to migrate my blog from Hugo to Gatsby and write a series of blog posts on the process. In this first blog post, I'll discuss the reasons for the change as well as my decision to go with Gatsby.
+  I have decided to migrate my personal website from Hugo to Gatsby and write a series of blog posts on the process. In this first blog post, I'll discuss the reasons for the change as well as my decision to go with Gatsby.
 tags:
 - blogging
 - hugo
@@ -10,9 +10,9 @@ tags:
 
 ## Introduction
 
-Since starting with this blog in 2013, I have used various blogging platforms. I initially started with WordPress, then [moved to Statamic](/blog/switching-to-statamic/), and then later to [Hugo](https://gohugo.io/). There is no real rational reason for these changes, other than the fact that I have always considered my blog to be a bit of a playground to experiment with things.
+Since starting with this website in 2013, I have used various blogging platforms. I initially started with WordPress, then [moved to Statamic](/blog/switching-to-statamic/), and then later to [Hugo](https://gohugo.io/). There is no real rational reason for these changes, other than the fact that I have always considered my personal website to be a bit of a playground to experiment with things.
 
-I have decided to make a change again and switch my blog from Hugo to [Gatsby](https://www.gatsbyjs.org/). As of the writing of this particular blog post on 1 July 2019, my blog is still running on Hugo, so consider this the start of the journey. I'll be blogging about my experience as I go along.
+I have decided to make a change again and switch my website from Hugo to [Gatsby](https://www.gatsbyjs.org/). As of the writing of this particular blog post on 1 July 2019, my website is still running on Hugo, so consider this the start of the journey. I'll be blogging about my experience as I go along.
 
 ## The decision to go with Gatsby
 
