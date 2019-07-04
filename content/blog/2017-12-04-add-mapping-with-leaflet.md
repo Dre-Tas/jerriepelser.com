@@ -6,7 +6,7 @@ date: 2017-12-04
 tags:
 - mapping
 - leaflet.js
-url: /blog/2017-12-04-add-mapping-with-leaflet
+url: /blog/add-mapping-with-leaflet
 ---
 
 When adding mapping to your application, the most common mapping libraries developers seem to use is either [Mapbox](https://www.mapbox.com/) or [Google Maps](https://developers.google.com/maps/). Both of these are great options, but both have limited free tier usage. Once you go past the free tier usage limit or you place the map behind a login, you start paying. 
