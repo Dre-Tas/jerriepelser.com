@@ -14,7 +14,7 @@ We have no definite way to link an airport in our downloaded CSV file to a speci
 Let's demonstrate this by calling the endpoint and searching for **Suvarnabhumi Airport**. We can specify the coordinates as the `location`, the name of the airport as the `name`, specifying a `radius` of 1000 meters and set the `type` parameter to `airport` to ensure that we only search for airports:
 
 ```text
-https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=[YOUR API KEY]Q&location=13.681099891662598,100.74700164794922&radius=1000&name=Suvarnabhumi Airport&type=airport
+https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=[YOUR API KEY]&location=13.681099891662598,100.74700164794922&radius=1000&name=Suvarnabhumi Airport&type=airport
 ```
 
 This will return the following result:
